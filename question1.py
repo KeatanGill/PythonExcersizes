@@ -34,5 +34,17 @@ error_1000 = abs(pi-pi_1000)
 print(error_1000) 
 
 error_10000 = abs(pi-pi_10000)
-print(error_10000)  
+print(error_10000)   
+
+
+#part 3
+error = 1
+n = 1 
+while error > 10^(-7):
+    eprox_pi = 8/(((4*n)+1)*((4*n)+3))
+    error = abs(eprox_pi - pi)   
+    n = n+1
+
+print(n)
+
 
