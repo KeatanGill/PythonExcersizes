@@ -1,9 +1,11 @@
 #part 1
 def dot_product(a,b): 
     ans = 0
-    for i in range(0,len(a)):
+    for i in range(len(a)):
         q = a[i] * b[i]
-        ans = ans + q
+        ans = ans + q 
+    
+    return(ans)
 
 
 a = [1,1,1,1]
