@@ -1,3 +1,4 @@
+from math import pi
 # part 1
 pi_100 = 0 
 
@@ -22,4 +23,16 @@ for i in range(0,10000):
     q = 8/(((4*i)+1)*((4*i)+3)) 
     pi_10000 = pi_10000 + q
 
-print (pi_10000) 
+print (pi_10000)  
+
+
+#part 2
+error_100 = abs(pi-pi_100)
+print(error_100) 
+
+error_1000 = abs(pi-pi_1000)
+print(error_1000) 
+
+error_10000 = abs(pi-pi_10000)
+print(error_10000)  
+
